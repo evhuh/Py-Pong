@@ -29,8 +29,8 @@ class Ball:
         self.x = self.og_x = x
         self.y = self.og_y = y
         self.rad = rad
-        self.x_velo = 5
-        self.y_velo = self.og_y_velo = 5
+        self.x_velo = 7
+        self.y_velo = self.og_y_velo = 7
     
     def draw(self, wn):
         pygame.draw.circle(wn, self.COLOR, (self.x, self.y), self.rad)
